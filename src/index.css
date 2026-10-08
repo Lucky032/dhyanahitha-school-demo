@@ -41,3 +41,30 @@ button {
 .font-serif {
   font-family: "DM Serif Display", Georgia, serif;
 }
+
+.form-input {
+  width: 100%;
+  border: 1px solid #ded9cf;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.82);
+  padding: 13px 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #172033;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.form-input::placeholder {
+  color: #a2a7af;
+}
+
+.form-input:focus {
+  border-color: #9b7a35;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(155, 122, 53, 0.08);
+}
+
+select.form-input {
+  appearance: none;
+}
